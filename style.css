@@ -124,3 +124,26 @@ button {
 .info {
     margin-bottom: 75px;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #E5E7EB;
+    padding: 80px 375px;
+    box-sizing: border-box;
+}
+
+.signature {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 16px;
+    
+}
