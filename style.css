@@ -11,12 +11,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 150px;
+    padding: 10px 175px;
     font-size: 24px;
 }
 
 #header-link {
-    color: #E5E7EB;
+    color: #9c9c9c;
     font-size: 18px;
 }
 
@@ -34,13 +34,13 @@ ul {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    padding: 80px 150px;
+    padding: 80px 175px;
     gap: 30px;
     
 }
 
 .top-text {
-    max-width:415px ; 
+    max-width: 415px; 
 }
 
 img {
@@ -66,11 +66,57 @@ button {
 
 .subtext {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #9c9c9c;
     margin-bottom: 16px;
 }
 
 #octo-img {
     display: flex;
     justify-content: flex-end;
+}
+
+.middle-container {
+    background-color: #f6f7f9;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.placeholder {
+    height: 150px;
+    width: 150px;
+    border: solid rgb(83, 83, 254);
+    border-radius: 16px;
+    border-width: 4px;
+    margin-bottom: 8px;
+}
+
+#section-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.placeholders {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.description {
+    font-size: 18px;
+    color: #777878;
+    max-width: 150px;
+    display: flex;
+    text-align: center;
+}
+
+.info {
+    margin-bottom: 75px;
 }
